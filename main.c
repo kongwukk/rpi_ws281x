@@ -376,7 +376,7 @@ int main(int argc, char *argv[])
 {
     ws2811_return_t ret;
 
-    sprintf(VERSION, "%d.%d.%d", VERSION_MAJOR, VERSION_MINOR, VERSION_MICRO);
+    // sprintf(VERSION, "%d.%d.%d", VERSION_MAJOR, VERSION_MINOR, VERSION_MICRO);
 
     parseargs(argc, argv, &ledstring);
 
